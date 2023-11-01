@@ -34,8 +34,8 @@ if fl is not None:
     filename = fl.name
     st.write(filename)
     df = pd.read_excel(filename)
-#else:
-    #df=pd.read_excel("Prova.xlsx")
+else:
+    df=pd.read_excel("Prova.xlsx")
 
 
     #divide page into 2 columns
