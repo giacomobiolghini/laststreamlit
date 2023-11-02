@@ -11,7 +11,7 @@ import xlsxwriter
 warnings.filterwarnings('ignore')
 
 st.set_page_config(page_title="Exponento", layout="wide")
-st.title("Example Exponento data")
+st.title("BI Analytics")
 
 def to_excel(df):
     output = BytesIO()
